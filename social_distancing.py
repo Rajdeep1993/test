@@ -12,7 +12,7 @@ while True:
     t_max= int(input('Enter the number of days: '))#maximum time in days
     dt=0.1 #time step in days
     t=np.linspace(0,t_max,int(t_max/dt)+1) #create time datapoint
-    N=35498719 #total population of assam
+    N=35498715 #total population of assam
     init_vals=1-1/N, 1/N, 0, 0
     alpha=0.2
     gamma=0.5
